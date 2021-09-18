@@ -20,3 +20,8 @@ lista = ["Juan", "Maria", "Pedro", "Sofia", type(tupla), len(tupla)]
 
 for valor in lista:
     print(valor)
+
+print(type(range(5)))
+
+for key, valor in enumerate(lista):
+    print(key, " =>", valor)
